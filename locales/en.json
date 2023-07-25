@@ -1,0 +1,74 @@
+{
+	"CUSTOMER": {
+		"VALIDATIONS": {
+			"customer_name": {
+				"required": "Customer Name is required",
+				"valid": "Customer Name is length must be between 1 and 255",
+				"type": "Customer Name must be string"
+			},
+			"customer_number": {
+				"required": "customer number is required",
+				"valid": "customer number is invalid",
+				"type": "customer number must be string"
+			},
+			"customer_email": {
+				"required": "email is required",
+				"valid": "email is invalid",
+				"type": "email must be string"
+			},
+			"customer_address": {
+				"required": "address is required",
+				"valid": "address length must be between 1 and 500",
+				"type": "address must be string"
+			},
+			"email": {
+				"required": "CUSTOMER.VALIDATIONS.email.required"
+			}
+		},
+		"CUSTOMER_EXIST": "Customer is already exists.",
+		"SIGNUP": "Sign up successfully.",
+		"NOT_FOUND": "Customer not found.",
+		"DETAIL": "Customer detail found",
+		"UPDATE_SUCCESS": "Customer details updated successfully"
+	},
+	"PRODUCT": {
+		"VALIDATIONS": {
+			"title": {
+				"required": "Product title is required",
+				"valid": "Product title is length must be between 1 and 250",
+				"type": "Product title must be string"
+			},
+			"price": {
+				"required": "Price is required",
+				"mess": "Price is always Positive values",
+				"valid": "Price is decimal",
+				"type": "Price must be decimal"
+			},
+			"stock": {
+				"required": "Stock is required",
+				"mess": "Stock is always Positive values",
+				"valid": "Stock is Integer",
+				"type": "Stock must be Integer"
+			},
+			"brand": {
+				"required": "Product Brand is required",
+				"valid": "Product Brand is length must be between 1 and 300",
+				"type": "Product Brand must be string"
+			},
+			"category": {
+				"required": "Product category is required",
+				"valid": "Product category is length must be between 1 and 350",
+				"type": "Product category must be string"
+			},
+			"thumbnail": {
+				"required": "Product thumbnail is required",
+				"valid": "Product thumbnail is length must be between 1 and 355",
+				"type": "Product thumbnail must be string"
+			}
+		},
+		"PRODUCT_EXIST": "Product is already exists.",
+		"NOT_FOUND": "Product not found.",
+		"DETAIL": "Product detail found",
+		"UPDATE_SUCCESS": "Product details updated successfully"
+	}
+}

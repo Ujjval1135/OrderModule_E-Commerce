@@ -1,0 +1,69 @@
+{
+	"CUSTOMER": {
+		"VALIDATIONS": {
+			"customer_name": {
+				"required": "Le nom du client est requis",
+				"valid": "La longueur du nom du client doit être comprise entre 1 et 255",
+				"type": "Le nom du client doit être une chaîne de caractères"
+			},
+			"customer_number": {
+				"required": "Le numéro du client est requis",
+				"valid": "Le numéro du client est invalide",
+				"type": "Le numéro du client doit être une chaîne de caractères"
+			},
+			"customer_email": {
+				"required": "L'adresse e-mail est requise",
+				"valid": "L'adresse e-mail est invalide",
+				"type": "L'adresse e-mail doit être une chaîne de caractères"
+			},
+			"customer_address": {
+				"required": "L'adresse est requise",
+				"valid": "La longueur de l'adresse doit être comprise entre 1 et 500",
+				"type": "L'adresse doit être une chaîne de caractères"
+			}
+		},
+		"CUSTOMER_EXIST": "Le client existe déjà.",
+		"SIGNUP": "Inscription réussie.",
+		"NOT_FOUND": "Client introuvable.",
+		"DETAIL": "Détail du client trouvé.",
+		"UPDATE_SUCCESS": "Détails du client mis à jour avec succès."
+	},
+	"PRODUCT": {
+		"VALIDATIONS": {
+			"title": {
+				"required": "Le titre du produit est requis",
+				"valid": "Le titre du produit doit comporter entre 1 et 250 caractères",
+				"type": "Le titre du produit doit être une chaîne de caractères"
+			},
+			"price": {
+				"required": "Le prix est requis",
+				"valid": "Le prix doit être décimal",
+				"type": "Le prix doit être décimal"
+			},
+			"stock": {
+				"required": "Le stock est requis",
+				"valid": "Le stock doit être un entier",
+				"type": "Le stock doit être un entier"
+			},
+			"brand": {
+				"required": "La marque du produit est requise",
+				"valid": "La marque du produit doit comporter entre 1 et 300 caractères",
+				"type": "La marque du produit doit être une chaîne de caractères"
+			},
+			"category": {
+				"required": "La catégorie du produit est requise",
+				"valid": "La catégorie du produit doit comporter entre 1 et 350 caractères",
+				"type": "La catégorie du produit doit être une chaîne de caractères"
+			},
+			"thumbnail": {
+				"required": "L'image miniature du produit est requise",
+				"valid": "L'image miniature du produit doit comporter entre 1 et 355 caractères",
+				"type": "L'image miniature du produit doit être une chaîne de caractères"
+			},
+			"PRODUCT_EXIST": "Le produit existe déjà.",
+			"NOT_FOUND": "Produit non trouvé.",
+			"DETAIL": "Détails du produit trouvés",
+			"UPDATE_SUCCESS": "Détails du produit mis à jour avec succès"
+		}
+	}
+}
